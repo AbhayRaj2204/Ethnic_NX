@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - Ethnic NX</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Ethnic NX" class="logo-img">
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                        <div class="dropdown-menu">
+                            <a href="products.html?category=sherwani" class="dropdown-item">Sherwani</a>
+                            <a href="products.html?category=indo-western" class="dropdown-item">Indo-Western</a>
+                            <a href="products.html?category=blazer" class="dropdown-item">Blazer</a>
+                            <a href="products.html?category=jodhpuri-suit" class="dropdown-item">Jodhpuri Suit</a>
+                            <a href="products.html?category=koti-kurta" class="dropdown-item">Koti-Kurta</a>
+                            <a href="products.html?category=kurta" class="dropdown-item">Kurta</a>
+                            <a href="products.html?category=accessories" class="dropdown-item">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav-actions">
+                    <div class="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="wishlist-icon">
+                        <i class="fas fa-heart"></i>
+                        <span class="wishlist-count">0</span>
+                    </div>
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <nav class="breadcrumb-nav">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="products.html">Products</a>
+                <span>/</span>
+                <span>Gulaabi Grace Rajwadi Koti Kurta Set</span>
+            </nav>
+            <div class="product-navigation">
+                <button class="nav-btn prev-product">
+                    <i class="fas fa-chevron-left"></i>
+                    PREVIOUS
+                </button>
+                <button class="nav-btn next-product">
+                    NEXT
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Detail -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-detail-content">
+                <div class="product-images">
+                    <div class="main-image">
+                        <img id="main-product-image" src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=500&h=600&fit=crop" alt="Product Image">
+                        <button class="zoom-btn-detail"><i class="fas fa-search-plus"></i></button>
+                    </div>
+                    <div class="thumbnail-images">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=80&h=100&fit=crop" alt="Thumbnail 1" class="thumbnail active">
+                        <img src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=80&h=100&fit=crop" alt="Thumbnail 2" class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1506629905607-d405872a4d86?w=80&h=100&fit=crop" alt="Thumbnail 3" class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=80&h=100&fit=crop" alt="Thumbnail 4" class="thumbnail">
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <h1 class="product-title-detail">Gulaabi Grace Rajwadi Koti Kurta Set</h1>
+                    <p class="product-price-detail">₹8,500.00</p>
+
+                    <div class="product-tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="details">Attire Details</button>
+                            <button class="tab-btn" data-tab="size">Size Guide</button>
+                            <button class="tab-btn" data-tab="contact">Contact Our Team</button>
+                        </div>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="details">
+                                <ul class="product-details-list">
+                                    <li><strong>Fabric:</strong> Silk</li>
+                                    <li><strong>Included:</strong> Koti, Kurta & Pajama</li>
+                                    <li><strong>Washing Instructions:</strong> Dry-Clean Only</li>
+                                    <li><strong>Occasion:</strong> Wedding, Festival, Party</li>
+                                    <li><strong>Pattern:</strong> Embroidered</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane" id="size">
+                                <div class="size-guide">
+                                    <h4>Size Chart</h4>
+                                    <table class="size-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Size</th>
+                                                <th>Chest</th>
+                                                <th>Length</th>
+                                                <th>Shoulder</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>S</td>
+                                                <td>36"</td>
+                                                <td>42"</td>
+                                                <td>16"</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M</td>
+                                                <td>38"</td>
+                                                <td>43"</td>
+                                                <td>17"</td>
+                                            </tr>
+                                            <tr>
+                                                <td>L</td>
+                                                <td>40"</td>
+                                                <td>44"</td>
+                                                <td>18"</td>
+                                            </tr>
+                                            <tr>
+                                                <td>XL</td>
+                                                <td>42"</td>
+                                                <td>45"</td>
+                                                <td>19"</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="contact">
+                                <div class="contact-info">
+                                    <p>Chat to our team for further assistance and queries.</p>
+                                    <p><strong>WhatsApp Us at +91 8153990102</strong></p>
+                                    <p><strong>Monday to Saturday - 10:00 am to 8:00 pm IST</strong></p>
+                                    <a href="https://wa.me/918153990102" class="whatsapp-btn">
+                                        <i class="fab fa-whatsapp"></i>
+                                        Contact on WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="size-selection">
+                        <h4>SIZE</h4>
+                        <div class="size-options">
+                            <button class="size-btn">XS</button>
+                            <button class="size-btn">S</button>
+                            <button class="size-btn active">M</button>
+                            <button class="size-btn">L</button>
+                            <button class="size-btn">XL</button>
+                        </div>
+                    </div>
+
+                    <div class="quantity-selection">
+                        <h4>QUANTITY</h4>
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus">-</button>
+                            <input type="number" class="qty-input" value="1" min="1">
+                            <button class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+
+                    <div class="product-actions-detail">
+                        <button class="btn btn-primary add-to-cart-detail">ADD TO CART</button>
+                        <button class="btn btn-secondary wishlist-detail">
+                            <i class="fas fa-heart"></i>
+                            Add to Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Related products</h2>
+            </div>
+
+            <div class="related-products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                        <div class="product-badge sold-out">Sold Out</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Rajwadi Heritage Indowestren</h3>
+                        <p class="product-price">₹10,500.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Flower Fusion Elegance Koti Kurta Set</h3>
+                        <p class="product-price">₹9,500.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Royale Black Merge Fusion Indowestren</h3>
+                        <p class="product-price">₹9,500.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Black Rolex Regal Fusion Ensemble Indowest</h3>
+                        <p class="product-price">₹15,500.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recently Viewed -->
+    <section class="recently-viewed">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Recently Viewed Products</h2>
+            </div>
+
+            <div class="recently-viewed-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Heritage Thread Goldren Handwork Sherwani Set</h3>
+                        <p class="product-price">₹38,500.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">5 Piece Black Eclipse Elegance Suit</h3>
+                        <p class="product-price">₹9,500.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Classic Red Match Royalty Sherwani Set</h3>
+                        <p class="product-price">₹22,500.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/918153990102" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp us</span>
+        </a>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div class="bottom-nav-item">
+            <i class="fas fa-home"></i>
+            <span>Shop</span>
+        </div>
+        <div class="bottom-nav-item">
+            <i class="fas fa-heart"></i>
+            <span>Wishlist</span>
+            <span class="nav-badge">0</span>
+        </div>
+        <div class="bottom-nav-item">
+            <i class="fas fa-search"></i>
+            <span>Search</span>
+        </div>
+        <div class="bottom-nav-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Cart</span>
+            <span class="nav-badge">0</span>
+        </div>
+    </div>
+
+    <!-- Product Zoom Modal -->
+    <div id="zoom-modal" class="zoom-modal">
+        <div class="zoom-modal-content">
+            <span class="zoom-close">&times;</span>
+            <img id="zoom-image" src="/placeholder.svg" alt="Product Image">
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

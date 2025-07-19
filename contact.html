@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ethnic NX</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Ethnic NX" class="logo-img">
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                        <div class="dropdown-menu">
+                            <a href="products.html?category=sherwani" class="dropdown-item">Sherwani</a>
+                            <a href="products.html?category=indo-western" class="dropdown-item">Indo-Western</a>
+                            <a href="products.html?category=blazer" class="dropdown-item">Blazer</a>
+                            <a href="products.html?category=jodhpuri-suit" class="dropdown-item">Jodhpuri Suit</a>
+                            <a href="products.html?category=koti-kurta" class="dropdown-item">Koti-Kurta</a>
+                            <a href="products.html?category=kurta" class="dropdown-item">Kurta</a>
+                            <a href="products.html?category=accessories" class="dropdown-item">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav-actions">
+                    <div class="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="wishlist-icon">
+                        <i class="fas fa-heart"></i>
+                        <span class="wishlist-count">0</span>
+                    </div>
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="contact-title">Get in Touch</h1>
+                <p class="contact-subtitle">We're here to help you find the perfect ethnic wear</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>Chat with our team for instant support</p>
+                        <a href="https://wa.me/918153990102" class="contact-link">+91 8153990102</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>Call us for immediate assistance</p>
+                        <a href="tel:+918153990102" class="contact-link">+91 8153990102</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>Send us your queries</p>
+                        <a href="mailto:info@ethnicnx.com" class="contact-link">info@ethnicnx.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Business Hours</h3>
+                        <p>Monday to Saturday</p>
+                        <span class="contact-link">10:00 AM - 8:00 PM IST</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <h2>Send us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you soon</p>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="product-inquiry">Product Inquiry</option>
+                                <option value="custom-order">Custom Order</option>
+                                <option value="size-guide">Size Guide Help</option>
+                                <option value="order-status">Order Status</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I place a custom order?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can place a custom order by contacting us via WhatsApp or phone. Our team will guide you through the process, including measurements, fabric selection, and design customization.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your return policy?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 7-day return policy for unused items in original condition. Custom-made items are not eligible for returns unless there's a manufacturing defect.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does delivery take?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Standard delivery takes 5-7 business days. Custom orders may take 10-15 business days depending on the complexity of the design.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide size alterations?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we provide free size alterations within 30 days of purchase. Please contact us to schedule an appointment with our tailors.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept all major credit cards, debit cards, UPI, net banking, and cash on delivery for orders above ₹2000.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/918153990102" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp us</span>
+        </a>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <div class="bottom-nav-item">
+            <i class="fas fa-home"></i>
+            <span>Shop</span>
+        </div>
+        <div class="bottom-nav-item">
+            <i class="fas fa-heart"></i>
+            <span>Wishlist</span>
+            <span class="nav-badge">0</span>
+        </div>
+        <div class="bottom-nav-item">
+            <i class="fas fa-search"></i>
+            <span>Search</span>
+        </div>
+        <div class="bottom-nav-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Cart</span>
+            <span class="nav-badge">0</span>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
